@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(39, 37, 37, 0.753);
+    color: white;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.884);
+    display: flex;
+}
+header img{
+    width: 70px;
+    margin-left: 10px;
+    margin-top: -10px;
+    
+}
+.header-heading{
+    margin-left: 300px;
+}
+nav ul {
+    display: flex;
+ list-style: none;
+ margin-left: 100px;
+}
+nav ul li{
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.hero img{
+    width: 100%;
+    height: 300px;
+
+}
+.hero-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.hero-btn input{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 30pX;
+}
+.hero-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.join-btn { 
+    margin: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.join-btn input{
+    width: 100px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 120px;
+}
+.courses{
+    border: 2px solid ;
+    width: 310px;
+    height: 200px;
+    margin-right: 5px;
+
+}
+.course-h2{
+    text-align: center;
+    color: rgb(150, 150, 228);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.courses ul li{
+    margin: 20px;
+}
+.features{
+    border: 2px solid ;
+    width: 310px;
+    height: 200px;
+    margin-left: 5px;
+
+}
+.features-h2{
+    text-align: center;
+    color: rgb(150, 150, 228);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.feature p {
+    margin: 20px;
+}
+.registation-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  
+}
+.registation-section{
+    
+    width: 380px;
+    height: 500px;
+    background-color:black;
+    margin-top: 50px;
+}
+.registation-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.regitation-name input {
+    margin-left: 30px;
+  width: 300px;
+  height:35px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+    
+}
+.regitation-name input::placeholder{
+    text-align: center;
+    font-size: 12px;
+}
+.regitation-name input:hover{
+color: white;
+background-color: aqua;
+text-align: center;
+}
+
+.registation-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+.registation-date input{
+    width: 200px;
+    height: 30px;
+}
+.registation-gender{
+   
+    margin-left: 40px;
+    font-size: 16px;
+}
+.registation-number input{
+    margin-left: 30px;
+  width: 300px;
+  height:35px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+    
+
+}
+.registation-number input:hover{
+    color: white;
+background-color: aqua;
+text-align: center;
+}
+.registation-number input::placeholder{
+     text-align: center;
+    font-size: 12px;
+}
+
+.registation-btn input{
+    width: 300px;
+    height:40px;
+  margin-top: 40px;
+  border-radius: 50px;
+  border: none;
+  margin-left: 30px;
+  font-size: 20px;
+    
+}
+.footer-p{
+    margin-top: 20px;
+    background-color: #333;
+    text-align: center;
+}
